@@ -2,6 +2,8 @@ package com.bootcamp.santanderweek.controller;
 
 import com.bootcamp.santanderweek.model.dto.StockDTO;
 
+import com.bootcamp.santanderweek.service.StockService;
+import lombok.AllArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -13,12 +15,15 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/stock")
+@AllArgsConstructor
 public class StockController {
+
+    private StockService stockService;
 
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<StockDTO> save (@Valid @RequestBody StockDTO dto){
 
-        return ResponseEntity.ok(dto);
+        return ResponseEntity.ok(stockService.save(dto));
     }
     @PutMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<StockDTO> update(@Valid @RequestBody StockDTO dto){

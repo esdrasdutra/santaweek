@@ -25,11 +25,13 @@ public class StockDTO {
     private Double price;
 
     @NotNull
+    @Digits(integer=3, fraction = 2)
+    private Double variation;
+
+    @NotNull
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
     private LocalDate date;
 
-    @NotNull
-    @Digits(integer=3, fraction = 2)
-    private Double variation;
+
 
 }

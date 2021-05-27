@@ -2,3 +2,16 @@ server:
   port: 8080
   servlet:
     context-path: /santaweek
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/sdweek
+    username: postgres
+    password: 524193
+
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: none
