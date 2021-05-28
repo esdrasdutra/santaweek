@@ -47,6 +47,5 @@ public class StockController {
     @GetMapping(value = "/today", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<StockDTO>> findByToday(){
         return ResponseEntity.ok(stockService.findByToday());
-
     }
 }
