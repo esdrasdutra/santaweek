@@ -1,6 +1,6 @@
-package com.bootcamp.santanderweek.exceptions;
+package com.bootcamp.sdweek.exceptions;
 
-import com.bootcamp.santanderweek.util.MessageUtils;
+import com.bootcamp.sdweek.util.MessageUtils;
 
 public class NotFoundException extends RuntimeException{
     public NotFoundException(){

@@ -1,7 +1,6 @@
-package com.bootcamp.santanderweek.model.dto;
+package com.bootcamp.sdweek.model.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import io.swagger.v3.core.util.Json;
 import lombok.Getter;
 import lombok.Setter;
 

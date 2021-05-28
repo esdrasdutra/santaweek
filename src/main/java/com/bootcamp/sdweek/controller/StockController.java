@@ -1,8 +1,8 @@
-package com.bootcamp.santanderweek.controller;
+package com.bootcamp.sdweek.controller;
 
-import com.bootcamp.santanderweek.model.dto.StockDTO;
+import com.bootcamp.sdweek.model.dto.StockDTO;
 
-import com.bootcamp.santanderweek.service.StockService;
+import com.bootcamp.sdweek.service.StockService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.bootcamp.santanderweek.model;
+package com.bootcamp.sdweek.model;
 
 import lombok.Getter;
 import lombok.Setter;

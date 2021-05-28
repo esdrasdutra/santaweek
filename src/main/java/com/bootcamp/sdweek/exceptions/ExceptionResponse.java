@@ -1,7 +1,6 @@
-package com.bootcamp.santanderweek.exceptions;
+package com.bootcamp.sdweek.exceptions;
 
 import lombok.Getter;
-import lombok.Setter;
 
 @Getter
 public class ExceptionResponse {

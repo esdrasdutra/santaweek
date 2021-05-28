@@ -1,7 +1,7 @@
-package com.bootcamp.santanderweek.mapper;
+package com.bootcamp.sdweek.mapper;
 
-import com.bootcamp.santanderweek.model.Stock;
-import com.bootcamp.santanderweek.model.dto.StockDTO;
+import com.bootcamp.sdweek.model.Stock;
+import com.bootcamp.sdweek.model.dto.StockDTO;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

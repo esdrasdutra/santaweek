@@ -1,4 +1,4 @@
-package com.bootcamp.santanderweek.exceptions;
+package com.bootcamp.sdweek.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

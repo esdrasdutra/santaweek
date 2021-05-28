@@ -1,12 +1,12 @@
-package com.bootcamp.santanderweek.service;
+package com.bootcamp.sdweek.service;
 
-import com.bootcamp.santanderweek.exceptions.BusinessException;
-import com.bootcamp.santanderweek.exceptions.NotFoundException;
-import com.bootcamp.santanderweek.mapper.StockMapper;
-import com.bootcamp.santanderweek.model.Stock;
-import com.bootcamp.santanderweek.model.dto.StockDTO;
-import com.bootcamp.santanderweek.repository.StockRepository;
-import com.bootcamp.santanderweek.util.MessageUtils;
+import com.bootcamp.sdweek.exceptions.BusinessException;
+import com.bootcamp.sdweek.exceptions.NotFoundException;
+import com.bootcamp.sdweek.mapper.StockMapper;
+import com.bootcamp.sdweek.model.Stock;
+import com.bootcamp.sdweek.model.dto.StockDTO;
+import com.bootcamp.sdweek.repository.StockRepository;
+import com.bootcamp.sdweek.util.MessageUtils;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

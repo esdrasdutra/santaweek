@@ -1,4 +1,4 @@
-package com.bootcamp.santanderweek.util;
+package com.bootcamp.sdweek.util;
 
 public abstract class MessageUtils {
 

@@ -1,7 +1,6 @@
-package com.bootcamp.santanderweek.repository;
+package com.bootcamp.sdweek.repository;
 
-import com.bootcamp.santanderweek.model.Stock;
-import com.bootcamp.santanderweek.model.dto.StockDTO;
+import com.bootcamp.sdweek.model.Stock;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
